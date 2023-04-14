@@ -1,0 +1,128 @@
+.flight__page {
+  width: 70%;
+  height: 100vh;
+  background-color: #e7e3e2;
+}
+.ts__logo {
+  padding-left: 50px;
+  width: 120px;
+}
+.book__flight {
+  /* padding: 40px 12% 0 12%; */
+  display: flex;
+  padding: 0% 0% 0% 12%;
+}
+.book {
+  font-family: zabal-light;
+  font-size: 1.5rem;
+  padding-right: 10%;
+}
+
+.train {
+  color: black;
+  opacity: 30;
+}
+.icons_for_flight {
+  padding-left: 1.5%;
+}
+.for_train {
+  color: #a96939;
+  padding-left: 1.5%;
+}
+.flight {
+  font-family: zabal-bold;
+  color: rgb(149, 163, 140);
+  opacity: 30;
+}
+
+.for__mobileBtn {
+  display: none;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .flight__page {
+    width: 100%;
+  }
+  .book__flightList {
+    margin-left: 5px;
+  }
+  .flight__page {
+    width: 100%;
+    height: 155vh;
+  }
+  .book__flight {
+    display: block;
+    padding: 0px 0% 0 6%;
+  }
+  .for__mobileBtn {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: #a96939;
+    color: white;
+  }
+
+  #train1 {
+    color: black;
+  }
+  .icons_for_flight {
+    padding-left: 1.5%;
+  }
+  .for_train {
+    color: #a96939;
+    padding-left: 1.5%;
+  }
+  .flight {
+    font-family: zabal-bold;
+    color: rgb(149, 163, 140);
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .flight__page {
+    width: 100%;
+    height: 155vh;
+  }
+  .book__flightList {
+    margin-left: 55px;
+  }
+  .book__flight {
+    padding: 0px 4% 0 12%;
+  }
+
+  .flight__page {
+    height: 124vh;
+  }
+  .airline__page {
+    height: 124vh;
+  }
+  .for__mobileBtn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 789px) and (max-width: 1024px) {
+  .book__flight {
+    padding: 0px 3% 0 12%;
+  }
+
+  .book {
+    font-family: zabal-light;
+    font-size: 1.5rem;
+    padding-right: 8%;
+  }
+  .flight__page {
+    height: 124vh;
+  }
+  .airline__page {
+    height: 124vh;
+  }
+  .train_main_page {
+    background-color: #7d9572;
+    width: 113%;
+    height: 100%;
+    display: block !important;
+  }
+}

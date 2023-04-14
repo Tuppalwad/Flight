@@ -1,0 +1,150 @@
+.train_main_page {
+  background-color: #44553c;
+  width: 30%;
+  height: 100vh;
+  display: block;
+}
+.train_filter{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.airline__icon {
+  font-size: 3rem;
+  color: #a96939;
+}
+.check__lowest {
+  color: white;
+  font-family: zabal-light;
+}
+.bottom__infoairline {
+  padding-left: 2rem;
+  padding-top:-1%;
+}
+.month__Maininfo {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.month__info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  font-size: 16px;
+  font-family: zabal-light;
+}
+.month__info2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 16px;
+  font-family: zabal-light;
+}
+.month__price {
+  color: white;
+  font-size: 13px;
+}
+.last__bottom {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.735);
+  padding-bottom: 5px;
+  width: 80%;
+  margin-bottom: 0.5rem;
+}
+.last__bottomHead {
+  font-family: zabal-bold;
+  color: white;
+  font-size: 2.3rem;
+}
+.last__bottomInfo {
+  color: white;
+ 
+}
+.checkbox__airline {
+  display: flex;
+  flex-direction: column;
+}
+#check1 {
+  margin-right: 0.5rem;
+}
+.checkbox__airline div {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.railway{
+  color:white;
+  font-family: zabal-bold;
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+}
+.A_time{
+  display: flex;
+}
+
+.arival_time,.departure_time{
+  color:white;
+  padding-right: 5%;
+ 
+}
+
+.ar_time ,.dr_time{
+  font-family: zabal-bold;
+  font-size: 1.1rem;
+  margin-bottom: 2%;
+}
+
+.appartment div{
+  color:white;
+}
+.filters{
+  color:white;
+  padding-left: 7%;
+  
+}
+
+.appartment label {
+  padding-right: 2%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .train_filter{
+    display: none;
+  }
+  .bottom__infoairline {
+    padding-top: 43px;
+}
+  .train_main_page {
+    background-color:  #44553c;
+    width: 100%;
+    display: none;
+    height:100vh;
+    /* position: fixed; */
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .bottom__infoairline {
+    padding-top: 10px;
+  }
+  .train_main_page {
+    background-color: #44553c;
+    width: 100%;
+    height: 100%;
+    display: block !important;
+  }
+  .checkbox__airline div {
+    color: white;
+    padding-bottom: 8px;
+    margin-bottom: 1rem;
+  }
+  .bottom__infoairline {
+    padding-left: 4rem;
+  }
+  .train_filter{
+    display: none;
+  }
+}

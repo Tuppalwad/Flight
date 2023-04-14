@@ -1,0 +1,251 @@
+
+/* for train page css */
+.heading_for_flight{
+  display: flex;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  /* padding-top: 14px; */
+}
+
+.state_name{
+  /* font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 10px;
+  color: rgb(102, 100, 100);
+  padding-top: 5px; */
+}
+
+.for_state_name{
+  font-family: zabal-bold;
+  font-size: 17px;
+  padding-left: 5px;
+  color: rgb(70, 67, 67);
+
+}
+
+.one_to_5{
+  font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 25px;
+  color: rgb(36, 34, 34);
+}
+
+.deprt{
+  font-family: zabal-light;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 25px;
+  color: rgb(36, 34, 34);
+}
+.days_name{
+  font-family: zabal-light;
+  font-weight: 200;
+  font-size: 17px;
+  padding-left: 5px;
+  color: rgb(36, 34, 34);
+}
+
+.letter{
+  font-family:zabal-bold;
+  color: rgb(70, 67, 67);
+}
+
+.date{
+  font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 25px;
+  font-weight: 600;
+  color: rgb(102, 100, 100);
+}
+
+
+
+.route_details{
+  font-family: zabal-italic;
+  width: 127px;
+  font-weight: 600;
+  color: rgb(102, 100, 100);
+  padding-top: 6px;
+}
+
+.time_for_state{
+  font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 25px;
+  font-weight: 600;
+  color: rgb(102, 100, 100);
+  display: flex;
+  flex-direction: column;
+}
+
+.time_for_flight{
+  font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 10px;
+  font-weight: 600;
+  color: rgb(49, 48, 48);
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow__right {
+  width: 35px;
+  height: 27px;
+  margin-left: -15px;
+
+}
+
+.availability{
+  font-family: zabal-light;
+  font-size: 17px;
+  padding-left: 25px;
+  font-weight: 600;
+  color: rgb(102, 100, 100);
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.para1{
+  background-color: #a1a49d;
+}
+.para2{
+  margin-top: 5px;
+  padding-bottom: 3px;
+  background-color: #a1a49d;
+}
+.para3{
+  margin-top: 5px;
+  background-color: #a1a49d;
+}
+
+.price_number{
+  font-family:zabal-bold;
+  color: rgb(70, 67, 67);
+  padding-left: 10px;
+}
+.book__flightList {
+  border-left: 10px solid #c6c9c0;
+  margin-left: 10%;
+  margin-top: 1.5rem;
+}
+.arrow__icons {
+  width: 35px;
+  height: 27px;
+  margin-left: 20px;
+  /* padding-left: 0.5%; */
+}
+.child__flightlist {
+  display: flex;
+  background-color: #c6c9c0;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 14px;
+  width: 85%;
+}
+
+
+.details {
+  font-family: zabal-italic;
+  padding-left: 36px;
+  width: 127px;
+  margin-right: 3px;
+  /* padding-right: 3.5%; */
+}
+
+.for__mobile {
+  display: flex;
+}
+
+@media screen  and ( min-device-width: 1024px){
+  .child__flightlist {
+    display: flex;
+    background-color: #c6c9c0;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 14px;
+    width: 94%;
+    height: auto;
+}
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .book__flightList {
+    margin-left: 4%;
+
+  }
+ .availability{
+  padding-left: 54px;
+ }
+  .child__flightlist {
+    width: 95%;
+  }
+  .one_to_5{
+    padding-left: 12px;
+  }
+  .deprt{
+    padding-left: 13px;
+  }
+  .date {
+    padding-left: 10px;
+}
+
+  .indigo {
+    padding-left: 2.5%;
+  }
+  .child__flightlist {
+    display: block;
+  }
+  .arrow__icons {
+    width: 40px;
+    height: 40px;
+    padding-left: 0;
+}
+  .price__tag {
+    font-family: zabal-light;
+    padding-left: 12px;
+  }
+  .for__mobile2 {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+  .child__flightlist {
+    display: flex;
+    background-color: #c6c9c0;
+    padding-bottom: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    padding-top: 14px;
+    width: 94%;
+}
+  .book__flightList {
+    margin-left: 4%;
+  }
+  .time_for_flight{
+    font-family: zabal-light;
+    font-size: 17px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .arrow__icons {
+    width:35px;
+    height: 27px;
+    /* padding-left: 0.5%; */
+  }
+ 
+  .for__mobile2 {
+    margin-top: 0px;
+  }
+}
+
+
+
+ 
+     
